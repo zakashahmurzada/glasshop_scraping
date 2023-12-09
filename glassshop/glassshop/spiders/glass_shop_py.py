@@ -11,5 +11,5 @@ class GlassShopPySpider(scrapy.Spider):
             product_url = product.xpath('.//div/div/div/div[@class="product-title p-tab p-tab-13145"]').get()
             # product_image_link = ''
             # product_name = ''
-            # product_price = ''
+            # product_price = product.xpath('div[@class = "product-title p-tab p-tab-11882"]/span/text()').get()
             
